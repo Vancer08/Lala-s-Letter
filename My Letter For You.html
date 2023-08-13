@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Read my letter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            margin-top: 0;
+        }
+        #openButton {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #openButton:hover {
+            background-color: darkred;
+        }
+        #message {
+            display: none;
+            margin-top: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Read my letter</h1>
+        <button id="openButton">Open</button>
+        <div id="message">
+            <p>
+		To my dearest Lala,
+            </p>
+            <p>
+                I saw everything in your eyes, and I knew I was locked in. I love you so much Lala, I really do.
+                I think saying I love you is quite an understatement. I feel like my feelings are much greater and
+                deeper than the words "I love you" could ever express. But whenever I say I love you, I truly mean it
+                from the bottom of my heart. More than those three words depict itself. You have given me the most joy
+                and love I could ever ask for, and you give it to me unconditionally knowing you are always there for
+                me. You have given me the warmest and safest place ever in your hugs and kisses. You have brought
+                colour to my lifeless void and walked with me through the darkness.
+            </p>
+            <p>
+                There will always be more ways to tell you I love you, and I will keep on discovering them and do it
+                for you. Do remember my love I will always be here for you, I will wipe your tears, offer my shoulder
+                for you to rest, you can run to me and welcome you with open arms, I will catch spiders for you, I
+                will work hard for us, I will always be here and support you.
+                No matter what happens, I love you unconditionally, you can always run back to me. I truly believe our
+                souls are forever intertwined, you will always have a special place in my heart.
+            </p>
+            <p>
+                I bought you these earrings because it reminded me of you. Small yet eye-catching, sweet like a
+                strawberry, and glistening whenever I look at them just like the way your eyes shine whenever I look
+                at them.
+            </p>
+            <p>
+                I know this letter is very messy and have ideas all over the place and poor handwriting, but these are
+                the thoughts and the voice of the heart for you.
+            </p>
+            <p>
+                I love you Lala, Monay, bebu, Love, Lyka, Anne, Paed, Sarino, Ly-Anne, my mini me!
+            </p>
+        </div>
+    </div>
+    <script>
+        const openButton = document.getElementById("openButton");
+        const message = document.getElementById("message");
+
+        openButton.addEventListener("click", () => {
+            openButton.style.display = "none";
+            message.style.display = "block";
+        });
+    </script>
+</body>
+</html>
